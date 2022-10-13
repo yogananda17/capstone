@@ -1,0 +1,15 @@
+package com.CarSelling.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.CarSelling.repository.UserCarRepository;
+
+@Service
+public class UserCarService {
+	
+	
+	@Autowired
+	UserCarRepository usercarRepository;
+
+}
